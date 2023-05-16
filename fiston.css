@@ -1,0 +1,234 @@
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    /* the rest of your styling */
+}
+h1{
+    text-align: center;
+  }
+  .form-style {
+    margin:10px auto;
+    width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .form-style td {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+  }
+  .form-style label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+  }
+  .form-style .required{
+    color:red;
+  }
+  .form-style input[type=submit], .form-style input[type=reset]{
+    background: #4eb5f1;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+  }
+  .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+    background: #4eb5f1;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+  }
+  .form-style .field-textarea{
+    height: 100px;
+  }
+  .form-style input[type=text], 
+  .form-style input[type=email],
+  textarea{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+  }
+  .form-style .long{
+    width: 100%;
+  }
+  .form-style input[type=text]:focus, 
+  .form-style input[type=email]:focus,
+  .form-style textarea:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+  }
+  .error{
+    color: #D8000C;
+    background-color: #FFBABA;
+  }
+.spacer{
+    margin-top:40px ;
+}
+.navbar .navbar-nav > li {
+    color: red;
+  }
+.navbar .navbar-brand {
+    color: red;}
+.navbar .navbar-nav {
+    color: red;}
+.myTable th{
+    padding: 10px;
+    margin: 10px;
+    border: 1px dotted gray;
+    background: beige;
+}
+.myTable td{
+    padding: 10px;
+    margin: 10px;
+    border: 1px dotted gray;
+    background: white;
+}
+body {
+    padding-top:5px;
+}
+
+#custom-nav {
+    -webkit-box-shadow: 20px 20px 20px #FC0;
+    -moz-box-shadow:    20px 20px 20px #FC0;
+    box-shadow:         20px 20px 20px #FC0;
+    z-index:999;
+}
+/* Classe principale de la barre de navigation */
+.navbar-default {
+    /* Couleur de fond de la barre de navigation */
+    background-color: black;
+    border-color: #E7E7E7;
+   }
+   /* Couleur des titres affichés dans la barre */
+   .navbar-default .navbar-brand {
+    color:white;
+   }
+   /* Couleur utilisée lors du passage de la souris sur un titre de la barre */
+   .navbar-default .navbar-brand:hover,
+   .navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+   }
+   /* Couleur utilisée pour les liens */
+   .navbar-default .navbar-nav > li > a {
+    color: #777;
+   }
+   /* Couleur utilisée pour les liens lorsque la souris passe dessus */
+   .navbar-default .navbar-nav > li > a:hover,
+   .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+   }
+   /* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
+   .navbar-default .navbar-nav > .active > a, 
+   .navbar-default .navbar-nav > .active > a:hover, 
+   .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+   }
+   /* Couleur utilisée pour un menu dépliant lorsqu'il est ouvert */
+   .navbar-default .navbar-nav > .open > a, 
+   .navbar-default .navbar-nav > .open > a:hover, 
+   .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+   }
+   /* Caret */
+   .navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+   }
+   .navbar-default .navbar-nav > .dropdown > a:hover .caret,
+   .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+   }
+   .navbar-default .navbar-nav > .open > a .caret, 
+   .navbar-default .navbar-nav > .open > a:hover .caret, 
+   .navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+   }
+   /* Version mobile, le menu devient une icône qui déroule une liste avec le menu en vertical */
+   .navbar-default .navbar-toggle {
+    border-color: #DDD;
+   }
+   .navbar-default .navbar-toggle:hover,
+   .navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+   }
+   .navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+   }
+   @media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    }
+   }
+   p {
+    margin-top: 0px;
+  }
+   
+  fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+   
+  legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+   
+  label {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+  }
+   
+  em {
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+  }
+   
+  input:focus {
+    background: #eaeaea;
+  }
+   
+  input, textarea {
+    width: 249px;
+  }
+   
+  textarea {
+    height: 100px;
+  }
+   
+  select {
+    width: 254px;
+  }
+   
+  input[type=checkbox] {
+    width: 10px;
+  }
+   
+  input[type=submit] {
+    width: 150px;
+    padding: 10px;
+  } 

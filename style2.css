@@ -1,0 +1,55 @@
+body {
+    font-family: "Trebuchet MS";
+}
+.menu {
+    display: flex;                /* Transformation en flexbox */
+    padding:0;                    /* Suppression des marges internes */
+    background-color:rgb(107, 96, 96);       /* Ajout de la couleur d'arrière-plan */
+    justify-content: space-around;/* Alignements des liens dans le menu */
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+  
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 80px;             /* Largeur minimale des liens */   
+    margin: 0.5rem;               /* Marges externes */
+    padding: 0.4rem 0;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */   
+    background-color: #415f5f;    /* Arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+    transition: all 1s ;          /* Ajout des effets de transition */
+}
+.menu a.actif {    
+    background-color: rgb(230, 217, 217) ; 
+    color: #032c24 ;
+    border-color: #04503d ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+  background-color: #ed2794;
+  color: #ffe843;
+  border-color: #ffe843;
+}
+.menu1 {
+    display: flex;                /* Transformation en flexbox */
+    padding:0;                    /* Suppression des marges internes */
+    background-color: rgb(110, 94, 94);       /* Ajout de la couleur d'arrière-plan */
+    justify-content: space-around;/* Alignements des liens dans le menu */
+}
+
+
+/*Centre les éléments inline dans les éléments possédant un attribut class="centre"*/
+.centre{
+  text-align: center;
+}
+
+/* " */
+.fils{
+    padding:50px;
+}
